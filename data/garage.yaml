@@ -1,0 +1,19 @@
+# train and val
+train: 
+  - ../yolov7/Fire-Data-Annotations-1/train/images
+  - ../yolov7/OpenDoor-7/train/images
+  - ../yolov7/person-2/train/images
+val: 
+  - ../yolov7/Fire-Data-Annotations-1/val/images
+  - ../yolov7/OpenDoor-7/valid/images
+  - ../yolov7/person-2/valid/images
+
+test:
+  - ../yolov7/OpenDoor-7/test/images
+  - ../yolov7/person-2/test/images
+
+# number of classes
+nc: 5
+
+# class names
+names: ["Person", "open", "semi", "closed", 'Fire']
